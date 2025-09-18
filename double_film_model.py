@@ -127,5 +127,5 @@ frac_b, frac_t = 0.06, 0.04 # normalized thickness for the bottom/top film
 # --- Run ---
 res = solve(H, Tb, Tt, P, gamma, lambda_, frac_b, frac_t)
 
-print(f"********* Double-film model results: Tb = {Tb}K, P = {P} atm *********")
+print(f"********* Double-film model results: Tb = {Tb} K, P = {P} atm *********")
 print(f"Nu : {res['Nu [-]']:.6g}")
